@@ -113,11 +113,6 @@ function Dash() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col>
-                        <img src={zoom} width="500" height="300">
-                        </img>
-                    </Col>
-
                 </Row>
             </Container>
 
