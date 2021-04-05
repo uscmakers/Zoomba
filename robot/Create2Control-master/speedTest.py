@@ -6,7 +6,7 @@ bot = create2api.Create2()
 bot.start()
 bot.safe()
 
-bot.sleep(10)
+time.sleep(10)
 
 bot.drive_straight(100) #units are in mm/s
 time.sleep(1) #units are in seconds
