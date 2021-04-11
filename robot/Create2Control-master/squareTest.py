@@ -16,4 +16,5 @@ for x in range(4):
     bot.turn_clockwise(200) 
     time.sleep(1)
 
+bot.turn_clockwise(0)
 bot.destroy()
