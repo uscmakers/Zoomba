@@ -17,7 +17,7 @@ time.sleep(1)
 bot.drive_straight(200)
 time.sleep(8)
 
-bot.turn_counter_clockwise(200)
+bot.turn_clockwise(200)
 time.sleep(1)
 
 bot.drive_straight(200)
