@@ -9,7 +9,7 @@ bot.start()
 bot.safe()
 
 bot.drive_straight(200)
-time.sleep(4)
+time.sleep(2)
 
 bot.turn_counter_clockwise(200)
 time.sleep(1)
