@@ -1,3 +1,4 @@
+
 # Zoomba
 Repository for Project Zoomba: Spring 2021
 
@@ -6,3 +7,9 @@ Repository for Project Zoomba: Spring 2021
 - type npm i (if you dont have npm please install)
 - type npm start
 - wait and the website should show up
+
+##start server
+- navigate to server
+- export FLASK_APP=server.py
+- flask run
+
