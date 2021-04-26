@@ -35,7 +35,7 @@ bot.safe()
 
 while True:
     userCommand = buttonClient.get_command()
-
+    print(userCommand)
     if userCommand == 'up':
         bot.drive_straight(200)
         time.sleep(0.2)
