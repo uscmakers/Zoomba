@@ -13,7 +13,7 @@ class zoombaClient():
     def get_command(self):
         #get request to post the button press
 
-        response = requests.get(f"https://{self.serv_addr}/")
+        response = requests.get('https://'+self.serv_addr)
 
         data = response.json()
 
