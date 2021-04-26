@@ -35,19 +35,19 @@ bot.safe()
 
 while True:
     userCommand = buttonClient.get_command()
-    print(userCommand)
+#     print(userCommand)
     if userCommand == 'up':
         bot.drive_straight(200)
-        time.sleep(0.2)
+        time.sleep(1)
     elif userCommand == 'down':
         bot.drive_straight(0)
-        time.sleep(0.2)
+        time.sleep(1)
     elif userCommand == 'left':
         bot.turn_counter_clockwise(200)
-        time.sleep(0.2)
+        time.sleep(1)
     elif userCommand == 'right':
         bot.turn_clockwise(200)
-        time.sleep(0.2)
+        time.sleep(1)
     elif userCommand == 'stop':
         bot.drive_straight(0)
         time.sleep(0.2)
