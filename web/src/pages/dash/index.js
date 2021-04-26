@@ -13,7 +13,23 @@ function useKeyPress(targetKey) {
   function downHandler({ key }) {
     if (key === targetKey) {
       setKeyPressed(true);
-      console.log("pressed");
+      let token = "";
+      if (key === "a") {
+        token = "left";
+      } else if (key === "d") {
+        token = "right";
+      } else if (key === "s") {
+        token = "down";
+      } else if (key === "w") {
+        token = "up";
+      }
+      axios
+        .post(`https://still-fjord-52738.herokuapp.com/`, {
+          Button: token,
+        })
+        .then((response) => {
+          console.log("done");
+        });
     }
   }
 
