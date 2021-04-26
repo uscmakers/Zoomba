@@ -17,7 +17,7 @@ class zoombaClient():
 
         data = response.json()
 
-        command = data['button']
+        command = data['Direction']
 
         print(response.json())
         # jsonify(response.json())
