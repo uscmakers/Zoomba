@@ -1,4 +1,3 @@
-from gpiozero import Button 
 from time import sleep
 from flask import Flask
 # from flask import jsonify
