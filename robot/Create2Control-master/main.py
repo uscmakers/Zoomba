@@ -37,11 +37,11 @@ while True:
     userCommand = buttonClient.get_command()
 #     print(userCommand)
     if userCommand == 'up':
-        bot.drive_straight(400)
-        time.sleep(0.1)
+        bot.drive_straight(200)
+        time.sleep(0.7)
     elif userCommand == 'down':
-        bot.drive_straight(-400)
-        time.sleep(0.1)
+        bot.drive_straight(-200)
+        time.sleep(0.7)
     elif userCommand == 'left':
         bot.turn_counter_clockwise(200)
         time.sleep(0.1)
