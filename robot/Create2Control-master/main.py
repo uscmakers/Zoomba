@@ -40,7 +40,7 @@ while True:
         bot.drive_straight(200)
         time.sleep(0.5)
     elif userCommand == 'down':
-        bot.drive_straight(0)
+        bot.drive_straight(-200)
         time.sleep(0.5)
     elif userCommand == 'left':
         bot.turn_counter_clockwise(200)
