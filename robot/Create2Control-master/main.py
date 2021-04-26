@@ -26,7 +26,7 @@ class zoombaClient():
 
 address='still-fjord-52738.herokuapp.com'
 
-buttonClient = iagoClient(address)
+buttonClient = zoombaClient(address)
 bot = create2api.Create2()
 time.sleep(1)
 
