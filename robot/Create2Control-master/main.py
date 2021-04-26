@@ -44,13 +44,13 @@ while True:
         time.sleep(0.5)
     elif userCommand == 'left':
         bot.turn_counter_clockwise(200)
-        time.sleep(0.2)
+        time.sleep(0.15)
     elif userCommand == 'right':
         bot.turn_clockwise(200)
-        time.sleep(0.2)
+        time.sleep(0.15)
     elif userCommand == 'stop':
         bot.drive_straight(0)
-        time.sleep(0.2)
+        time.sleep(0.1)
 
 
 bot.destroy()
