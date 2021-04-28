@@ -41,13 +41,13 @@ while True:
           v = 100.0*(-17.0*(t/100.0)*((t/100.0)-0.8)+0.25)
           print(v)
           bot.drive_straight(v)
-          time.sleep(0.16)
+          time.sleep(0.05)
     elif userCommand == 'down':
         for t in range(0, 85, 5):
           v = 100.0*(17.0*(t/100.0)*((t/100.0)-0.8)-0.25)
           print(v)
           bot.drive_straight(v)
-          time.sleep(0.16)
+          time.sleep(0.05)
     elif userCommand == 'left':
         bot.turn_counter_clockwise(200)
         time.sleep(0.1)
