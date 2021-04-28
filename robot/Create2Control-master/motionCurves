@@ -37,14 +37,14 @@ while True:
     userCommand = buttonClient.get_command()
 #     print(userCommand)
     if userCommand == 'up':
-        for t in range(0, 80, 16):
-          v = 100.0*(-17.0*(t/100.0)*((t/100.0)-0.7)+0.25)
+        for t in range(0, 96, 16):
+          v = 100.0*(-17.0*(t/100.0)*((t/100.0)-0.8)+0.25)
           print(v)
           bot.drive_straight(v)
           time.sleep(0.16)
     elif userCommand == 'down':
-        for t in range(0, 80, 16):
-          v = 100.0*(17.0*(t/100.0)*((t/100.0)-0.7)-0.25)
+        for t in range(0, 96, 16):
+          v = 100.0*(17.0*(t/100.0)*((t/100.0)-0.8)-0.25)
           print(v)
           bot.drive_straight(v)
           time.sleep(0.16)
