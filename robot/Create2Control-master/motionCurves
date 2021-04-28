@@ -38,13 +38,13 @@ while True:
 #     print(userCommand)
     if userCommand == 'up':
         for t in range(0, 70, 10):
-          v = -24*(t/100)*((t/100)-0.7)
+          v = -24.0*(t/100.0)*((t/100.0)-0.7)
           print(v)
           bot.drive_straight(v)
           time.sleep(0.1)
     elif userCommand == 'down':
         for t in range(0, 70, 10):
-          v = 24*(t/100)*((t/100)-0.7)
+          v = 24.0*(t/100.0)*((t/100.0)-0.7)
           print(v)
           bot.drive_straight(v)
           time.sleep(0.1)
